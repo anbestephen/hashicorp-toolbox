@@ -18,6 +18,6 @@ RUN wget https://releases.hashicorp.com/packer/1.2.4/packer_1.2.4_linux_amd64.zi
 # Install vault
 RUN wget https://releases.hashicorp.com/vault/0.10.2/vault_0.10.2_linux_amd64.zip \
   && unzip vault_0.10.2_linux_amd64.zip \
-  && mv packer /usr/bin/ 
+  && mv vault /usr/bin/ 
 
 RUN echo "hello world"
